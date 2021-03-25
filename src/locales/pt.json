@@ -1,6 +1,6 @@
 {
     "ADD_TO_LIBRARY": "Adicionar à coleção",
-    "ADD_TO_PLAYLIST": "Adicionar à lista de reprodução,
+    "ADD_TO_PLAYLIST": "Adicionar à lista de reprodução",
     "ALWAYS_ASK_WHEN_READ_LINK": "Perguntar sempre ao ler a ligação",
     "DOUBLE_CLICK_TO_RESET_POSITION": "Duplo clique para repor a posição",
     "LABEL_ALSO": "Também",
@@ -36,6 +36,7 @@
     "LABEL_SETTINGS_TAB_GENERAL_CONTINUE_WHERE_LEFT_OF": "Continuar da última sessão",
     "LABEL_SETTINGS_TAB_GENERAL_CUSTOM_THEME": "Tema personalizado",
     "LABEL_SETTINGS_TAB_GENERAL_DISABLE_HARDWARE_ACCELERATION": "Desativar aceleração por hardware",
+    "LABEL_SETTINGS_TAB_GENERAL_ENABLE_CACHING": "Habilitar cache",
     "LABEL_SETTINGS_TAB_GENERAL_DISCORD_RICH_PRESENCE": "Discord Rich Presence",
     "LABEL_SETTINGS_TAB_GENERAL_KEEP_BACKGROUND": "Ao fechar a janela, manter YTMDesktop em segundo plano",
     "LABEL_SETTINGS_TAB_GENERAL_PAGE_ZOOM": "Tamanho da página",

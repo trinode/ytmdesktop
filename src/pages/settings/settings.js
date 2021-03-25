@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'click',
         showRelaunchButton
     )
-
+    initElement('settings-enable-caching', 'click', showRelaunchButton)
     initElement('settings-miniplayer-always-top', 'click')
     initElement('settings-miniplayer-resizable', 'click')
     initElement('settings-miniplayer-show-task', 'click')

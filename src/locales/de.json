@@ -35,6 +35,7 @@
     "LABEL_SETTINGS_TAB_GENERAL_CONTINUE_WHERE_LEFT_OF": "Fortsetzen wo du aufgehört hast",
     "LABEL_SETTINGS_TAB_GENERAL_CUSTOM_THEME": "Benutzerdefiniertes Theme",
     "LABEL_SETTINGS_TAB_GENERAL_DISABLE_HARDWARE_ACCELERATION": "Hardwarebeschleunigung deaktivieren",
+    "LABEL_SETTINGS_TAB_GENERAL_ENABLE_CACHING": "Caching aktivieren",
     "LABEL_SETTINGS_TAB_GENERAL_DISCORD_RICH_PRESENCE": "Discord Rich Presence",
     "LABEL_SETTINGS_TAB_GENERAL_KEEP_BACKGROUND": "Anwendung beim Schließen im Hintergrund behalten",
     "LABEL_SETTINGS_TAB_GENERAL_PAGE_ZOOM": "Seitenzoom",

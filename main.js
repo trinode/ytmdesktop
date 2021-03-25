@@ -85,6 +85,10 @@ let iconPause = assetsProvider.getIcon('favicon_pause')
 /* First checks ========================================================================= */
 app.commandLine.appendSwitch('disable-features', 'MediaSessionService') //This keeps chromium from trying to launch up it's own mpris service, hence stopping the double service.
 
+if (!settingsProvider.get('settings-enable-caching')) {
+    app.commandLine.appendSwitch('disable-http-cache')
+}
+
 app.setAsDefaultProtocolClient('ytmd', process.execPath)
 
 createCustomAppDir()
@@ -414,7 +418,7 @@ function createWindow() {
             if (settingsProvider.get('settings-last-fm-scrobbler')) {
                 if (
                     lastTrackId !== trackId ||
-                    (lastTrackProgress > progress && progress < 0.20)
+                    (lastTrackProgress > progress && progress < 0.2)
                 ) {
                     if (!trackInfo.isAdvertisement) {
                         clearInterval(updateTrackInfoTimeout)
